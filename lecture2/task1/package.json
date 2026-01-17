@@ -1,0 +1,13 @@
+{
+  "name": "task1",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "transpile": "npx tsc script.ts && node script.js",
+    "start": "npx ts-node script.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0"
+  }
+}
